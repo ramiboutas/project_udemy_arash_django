@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %} | Home {% endblock %}
+
+
+
+{% block content %}
+
+  <!-- navbar -->
+  {% include "partials/_navbar.html" %} <br>
+
+  <div class="container col-10">
+    <!-- slider -->
+    {% include "partials/_homeslider.html" %} <br>
+    <!-- cards -->
+    {% include "partials/_homecards.html" %} <br>
+  </div>
+
+
+
+
+
+{% endblock %}
